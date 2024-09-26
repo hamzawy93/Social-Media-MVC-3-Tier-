@@ -1,0 +1,7 @@
+﻿@using Social_Media.DAL.Entity
+
+@model List<User>
+@foreach(var user in Model)
+{
+    <p>@user.Id   @user.FullName</p>
+}
